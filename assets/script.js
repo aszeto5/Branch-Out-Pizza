@@ -1,10 +1,11 @@
 var recipe = function (ingredients) {
-    fetch(`https://api.spoonacular.com/recipes/complexSearch?query=pizza&includeIngredients=${ingredients}&apiKey=7c877acbab834731a9c166e03e4e3bc3`)
+    fetch(`https://api.spoonacular.com/recipes/complexSearch?query=pizza&includeIngredients=${ingredients}&number=100&apiKey=7c877acbab834731a9c166e03e4e3bc3`)
         .then(response => response.json())
         .then(response => {
-            // console.log(response)
+            console.log(response)
             // console.log(response.results[0].title);
-            let temp = response.results[0].title;
+            // let temp = response.results[0].title;
+            let temp = reponse.results
             document.getElementById("modal-speech").textContent = temp;
             // displayRepos(response, user);
         }
@@ -12,6 +13,17 @@ var recipe = function (ingredients) {
         .catch(err => console.error(err));
 };
 
+var nutritionName = function (ingredients) {
+    fetch(`https://api.spoonacular.com/recipes/662264/information?apiKey=7c877acbab834731a9c166e03e4e3bc3`)
+        .then(response => response.json())
+        .then(response => {
+            console.log(response)
+        }
+        )
+        .catch(err => console.error(err));
+};
+
+nutritionName();
 
 
 var getUserReposOLD = function (user) {
