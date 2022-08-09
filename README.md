@@ -1,5 +1,5 @@
 # Branch Out Pizza
-Branch Out Pizza is an online search application that provides users with a variety of pizza recipe and ingredients. Through this application, we hope users may hone their skills and transform their kitchen to a pizzeria for family and friends! Currently, the application is able to provide a list of 10 pizzas. Upon clicking the pizzas, users may view corresponding pizza ingredients. 
+Branch Out Pizza is an online search application that provides users with a variety of pizza recipe and ingredients. Through this application, we hope users may hone their skills and transform their kitchen to a pizzeria for family and friends! Currently, the application is able to provide a list of 19 pizzas, categorizing them between vegetarian and non-vegetarian pizzas through color code. Upon clicking the pizzas, users may view corresponding pizza ingredients. 
 
 # Credits
 Gianni Mejia
