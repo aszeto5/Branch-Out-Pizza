@@ -6,7 +6,6 @@ Branch Out Pizza is an online search application that provides users with a vari
 * Adrian Szeto
 
 # Application Preview
-* Application Repository: https://github.com/aszeto5/Branch-Out-Pizza-Collective/blob/main/README.md
 * Deployed Application: https://aszeto5.github.io/Branch-Out-Pizza-Collective/
 * Application Screenshot:
 ![image](https://user-images.githubusercontent.com/100250064/183558181-509b8e0f-e1ce-448c-8be4-a59ea85aaa0d.png)
